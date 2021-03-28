@@ -21,7 +21,7 @@ const App = () => {
           <NavSection />
           <div className='App-container'>
               <Switch>
-                  <Route exact path='/' component={HomeContainer} />
+                  <Route exact path='/crafton-test/' component={HomeContainer} />
                   <Route path='/user/:userId' component={ProfileContainer} />
               </Switch>
           </div>

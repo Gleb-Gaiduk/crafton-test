@@ -33,7 +33,7 @@ const ProfileContainer = () => {
 
     return (
         <div className='ProfileContainer'>
-            <NavLink className='ProfileContainer-link' to='/'>Back to Home page</NavLink>
+            <NavLink className='ProfileContainer-link' to='/crafton-test/'>Back to Home page</NavLink>
             {loadingStatus === 'loading'
             && <Preloader />}
 
