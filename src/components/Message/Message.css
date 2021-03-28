@@ -1,0 +1,15 @@
+.Message {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 29px 15px;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.Message_status_error {
+  color: #BA0000;
+  background-color: rgba(186, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=Message.css.map */

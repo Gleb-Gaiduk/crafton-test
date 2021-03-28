@@ -1,0 +1,23 @@
+@import "../../common-styles/veriables";
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $general-light-gray-color;
+  height: $header-height;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+
+.Header-logoImage {
+  width: 116px;
+  height: 30px;
+}
+
+.Header-contactLink {
+  height: 40px;
+}

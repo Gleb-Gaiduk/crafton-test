@@ -1,0 +1,35 @@
+@import "../../common-styles/veriables";
+
+.NavSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  border-bottom: 1px solid $general-light-gray-color;
+
+  @media screen and (max-width: 668px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.NavSection-title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 2.125rem;
+  font-weight: bold;
+
+  @media screen and (max-width: 668px) {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+}
+
+.NavSection-subtitle {
+  color: #8A8A8A;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-size: 1.125rem;
+}
+

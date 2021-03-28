@@ -1,0 +1,30 @@
+@import "./veriables";
+
+.Button {
+  background-color: $general-dark-gold-color;
+  color: #FFF;
+  text-decoration: none;
+  border: 1px solid $general-dark-gold-color;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  @media screen and (min-width: 1024px) {
+    &:hover,
+    &:focus {
+      background-color: $general-button-hover-color;
+      border-color: $general-button-hover-color;
+      transition: 0.3s;
+    }
+  }
+}

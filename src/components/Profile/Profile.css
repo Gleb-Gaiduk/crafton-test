@@ -1,0 +1,56 @@
+.Profile {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .Profile {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+}
+
+.Profile-profileDataContainer {
+  padding-left: 20px;
+}
+
+.Profile-avatarWrapper {
+  display: block;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #E4E3E4;
+}
+@media screen and (max-width: 768px) {
+  .Profile-avatarWrapper {
+    margin: 0 auto;
+  }
+}
+
+.Profile-dataBlock {
+  margin-bottom: 30px;
+}
+.Profile-dataBlock:last-child {
+  margin-bottom: 0;
+}
+
+.Profile-avatar {
+  height: 100%;
+  width: 100%;
+}
+
+.Profile-login {
+  font-size: 2rem;
+  line-height: 1.25;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=Profile.css.map */

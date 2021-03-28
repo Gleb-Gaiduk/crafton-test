@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+@import "common-styles/veriables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 html {
   height: 100%;
   font-size: 1rem;
@@ -7,7 +9,7 @@ html {
 body {
   min-height: 100%;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
 }
 
@@ -31,28 +33,22 @@ body {
   padding: 30px;
 }
 
-.fade-enter {
+.fade-enter{
   opacity: 0;
   transform: translate(-100%, 0);
 }
-
-.fade-exit {
+.fade-exit{
   display: none;
 }
-
-.fade-enter-active {
+.fade-enter-active{
   opacity: 1;
   transform: translateX(0);
 }
-
-.fade-exit-active {
+.fade-exit-active{
   opacity: 0;
   transform: translateX(-100%);
 }
-
 .fade-enter-active,
-.fade-exit-active {
+.fade-exit-active{
   transition: all ease 200ms;
 }
-
-/*# sourceMappingURL=App.css.map */

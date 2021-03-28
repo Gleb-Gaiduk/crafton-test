@@ -1,0 +1,31 @@
+.HomeContainer-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  border-bottom: 1px solid #E4E3E4;
+}
+
+.HomeContainer-title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 2.125rem;
+  font-weight: bold;
+}
+
+.HomeContainer-subtitle {
+  color: #8A8A8A;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-size: 1.125rem;
+}
+
+.HomeContainer-body {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=HomeContainer.css.map */

@@ -1,0 +1,34 @@
+.ProfileData-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #CBA46A;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.ProfileData-body {
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 40px;
+}
+@media screen and (max-width: 768px) {
+  .ProfileData-body {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+}
+
+.ProfileData-rowData {
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.ProfileData-rowData--title {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=ProfileData.css.map */

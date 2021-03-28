@@ -1,0 +1,49 @@
+@import "../../common-styles/veriables";
+
+$navbar-padding-bottom: 10;
+
+.Navbar {
+  padding-bottom: $navbar-padding-bottom + px;
+  overflow-x: auto;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.Navbar-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  padding-left: 0;
+  max-width: $main-content-max-width;
+}
+
+.Navbar-listItem {
+  font-size: 1.375rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.NavbarLink {
+  text-decoration: none;
+  color: $general-dark-gray-color;
+}
+
+.NavbarLink_active {
+  display: block;
+  position: relative;
+  color: #000;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -$navbar-padding-bottom + px;
+    width: 100%;
+    border-radius: 2px;
+    height: 4px;
+    background-color: $general-dark-gold-color;
+  }
+}

@@ -1,0 +1,27 @@
+.Button {
+  background-color: #CBA46A;
+  color: #FFF;
+  text-decoration: none;
+  border: 1px solid #CBA46A;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.Button:disabled {
+  cursor: not-allowed;
+}
+@media screen and (min-width: 1024px) {
+  .Button:hover, .Button:focus {
+    background-color: #bd8435;
+    border-color: #bd8435;
+    transition: 0.3s;
+  }
+}
+
+/*# sourceMappingURL=Button.css.map */
