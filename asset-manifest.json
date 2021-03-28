@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/crafton-test/static/css/main.fe05b04f.chunk.css",
+    "main.js": "/crafton-test/static/js/main.8cb6c51d.chunk.js",
+    "main.js.map": "/crafton-test/static/js/main.8cb6c51d.chunk.js.map",
+    "runtime-main.js": "/crafton-test/static/js/runtime-main.8c89e104.js",
+    "runtime-main.js.map": "/crafton-test/static/js/runtime-main.8c89e104.js.map",
+    "static/js/2.6f609241.chunk.js": "/crafton-test/static/js/2.6f609241.chunk.js",
+    "static/js/2.6f609241.chunk.js.map": "/crafton-test/static/js/2.6f609241.chunk.js.map",
+    "index.html": "/crafton-test/index.html",
+    "static/css/main.fe05b04f.chunk.css.map": "/crafton-test/static/css/main.fe05b04f.chunk.css.map",
+    "static/js/2.6f609241.chunk.js.LICENSE.txt": "/crafton-test/static/js/2.6f609241.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c89e104.js",
+    "static/js/2.6f609241.chunk.js",
+    "static/css/main.fe05b04f.chunk.css",
+    "static/js/main.8cb6c51d.chunk.js"
+  ]
+}
